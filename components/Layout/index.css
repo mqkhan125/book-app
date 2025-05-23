@@ -26,13 +26,14 @@ align-items: center;
     margin-right: 60px;
 }
 
-.header ul li{
+.header ul a{
  padding: 13px;
  transition: 0.3s ease-in-out;
- cursor: pointer;
+text-decoration: none;
+color: black;
 }
 
-.header ul li:hover{
+.header ul a:hover{
     background-color: red;
     border-radius: 10px;
     color: white;
@@ -87,8 +88,8 @@ align-items: center;
 }
 
 .book-pages .book-items .btn button{
-    padding: 12px 14px;
-    background-color: blue;
+    padding: 7px 10px;
+    background-color: rgb(84, 84, 150);
     font-weight: bold;
     border-radius: 5px;
     border: none;

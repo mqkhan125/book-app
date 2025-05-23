@@ -5,21 +5,21 @@ function Book({books, title}) {
 
   return (
     <>
-      <h1>{title}</h1>
+      <h1 style={{paddingLeft: '24px'}}>{title}</h1>
       <div className="book-pages">
         {
-        books.map((curVal, index) => {
+        books.map((curItem, index) => {
           return (
             <div className="book-items" key={index}>
-              <img width={300} src={curVal.Img} alt="" />
+              <img width={300} src={curItem.Img} alt="" />
               <div className="book-title">
-                <h1>{curVal.Name}</h1>
-                <h2>{curVal.Price}</h2>
+                <h1>{curItem.Name}</h1>
+                <h2>{curItem.Price}</h2>
               </div>
               <div className="btn">
                 <button>Buy Now</button>
                 <button
-                  style={{ backgroundColor: "red", padding: "12px 24px" }}
+                  style={{ backgroundColor: "#7c3c3c", padding: "7px 13px" }}
                 >
                   Add to Cart
                 </button>

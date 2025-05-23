@@ -1,6 +1,6 @@
 import Layout from "../Layout"
 
-const About = () => {
+const AboutUs = () => {
 
     return(
         <Layout title="About-us">
@@ -11,4 +11,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default AboutUs;
